@@ -1,4 +1,4 @@
-# Dagboksappen
+Dagboksappen
 
 En enkel konsolapplikation skriven i C# där användaren kan skriva, lista, söka, uppdatera och ta bort dagboksanteckningar.  
 Anteckningarna sparas i en textfil och kan laddas tillbaka nästa gång programmet körs.  
