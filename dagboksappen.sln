@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36429.23 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dagboksappen", "dagboksappen\dagboksappen.csproj", "{24CCF028-5D00-4144-A8D3-50919075C44D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{24CCF028-5D00-4144-A8D3-50919075C44D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24CCF028-5D00-4144-A8D3-50919075C44D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24CCF028-5D00-4144-A8D3-50919075C44D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24CCF028-5D00-4144-A8D3-50919075C44D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {165EB079-2574-41D6-A226-A9FA4DA2B1EB}
+	EndGlobalSection
+EndGlobal
