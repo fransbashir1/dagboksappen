@@ -54,9 +54,9 @@ class Program
     {
         Console.Clear();
         Console.ForegroundColor = ConsoleColor.Cyan;
-        Console.WriteLine("╔══════════════════╗");
-        Console.WriteLine("║  Ny anteckning   ║");
-        Console.WriteLine("╚══════════════════╝");
+        Console.WriteLine("╔════════  ════════╗");
+        Console.WriteLine("   Ny anteckning    ");
+        Console.WriteLine("╚════════  ════════╝");
         Console.ResetColor();
 
         Console.Write("Datum (åååå-mm-dd): ");
@@ -85,9 +85,9 @@ class Program
     {
         Console.Clear();
         Console.ForegroundColor = ConsoleColor.Cyan;
-        Console.WriteLine("╔═════════════════════╗");
-        Console.WriteLine("║  Alla anteckningar  ║");
-        Console.WriteLine("╚═════════════════════╝");
+        Console.WriteLine("═════════════════════");
+        Console.WriteLine("  Alla anteckningar  ");
+        Console.WriteLine("═════════════════════");
         Console.ResetColor();
 
         if (entries.Count == 0)
@@ -129,9 +129,9 @@ class Program
     {
         Console.Clear();
         Console.ForegroundColor = ConsoleColor.Cyan;
-        Console.WriteLine("╔═════════════════════════╗");
+        Console.WriteLine(" ═════════════════════════ ");
         Console.WriteLine("║  Uppdatera anteckning   ║");
-        Console.WriteLine("╚═════════════════════════╝");
+        Console.WriteLine(" ═════════════════════════ ");
         Console.ResetColor();
 
         Console.Write("Datum (åååå-mm-dd): ");
