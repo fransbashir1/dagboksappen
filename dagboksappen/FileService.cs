@@ -4,8 +4,8 @@ using System.IO;
 
 public class FileService
 {
-    private readonly string filePath = "diary.txt";
-    private readonly string errorPath = "error.log";
+    private readonly string filePath = "diary.txt";// Fil där dagboken sparas
+    private readonly string errorPath = "error.log";// Fil där fel loggas
 
     public void Save(List<DiaryEntry> entries)
     {
@@ -19,7 +19,7 @@ public class FileService
         }
         catch (Exception ex)
         {
-            LogError(ex);
+            LogError(ex);// Vid fel skrivs undantaget till error.log
         }
     }
 
@@ -29,7 +29,7 @@ public class FileService
         try
         {
             if (!File.Exists(filePath))
-                return list;
+                return list; // Om ingen fil finns, returnera tom lista
 
             foreach (var line in File.ReadAllLines(filePath))
             {

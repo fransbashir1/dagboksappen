@@ -10,8 +10,9 @@ class Program
 
     static void Main()
     {
-        Console.OutputEncoding = System.Text.Encoding.UTF8; // stöd för ╔═╗
+        Console.OutputEncoding = System.Text.Encoding.UTF8;
 
+        // Meny-loop som kör tills användaren väljer att avsluta
         while (true)
         {
             Console.Clear();
