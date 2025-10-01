@@ -35,6 +35,7 @@ class Program
             Console.WriteLine("-----------------------");
             Console.Write("Ditt val: ");
 
+
             switch (Console.ReadLine())
             {
                 case "1": AddEntry(); break;
@@ -49,6 +50,7 @@ class Program
             }
         }
     }
+
 
     static void AddEntry()
     {
